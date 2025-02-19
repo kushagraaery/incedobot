@@ -408,7 +408,7 @@ if page == "Pharma Q&A Generator":
     sender_password = "afpt eoyt asaq qzjh"
     
     # Send email if button clicked
-    if st.button("Send selected Society data to Google Sheets"):
+    if st.button("Send Data to Google Sheets"):
         if receiver_email and email_subject and sender_email and sender_password:
             df = st.session_state.report_data
             html_table = dataframe_to_html(df)
