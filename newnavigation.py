@@ -61,6 +61,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Sidebar Navigation
+st.sidebar.image("incedologo.png", width=100)  # Adjust width as needed
 st.sidebar.title("Main Menu")
 page = st.sidebar.radio("Go to", ["Pharma Q&A Generator", "Incedo Insights Analyzer", "Pharma Insights Chatbot"])
 
