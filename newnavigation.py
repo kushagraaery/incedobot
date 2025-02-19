@@ -61,7 +61,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Sidebar Navigation
-st.sidebar.image("https://naf.org/wp-content/uploads/2024/04/incedo-logo-1536x405.jpg", width=100)  # Adjust width as needed
+st.sidebar.image("https://naf.org/wp-content/uploads/2024/04/incedo-logo-01.png", width=100)  # Adjust width as needed
 st.sidebar.title("Main Menu")
 page = st.sidebar.radio("Go to", ["Pharma Q&A Generator", "Incedo Insights Analyzer", "Pharma Insights Chatbot"])
 
